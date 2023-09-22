@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/node": "20.6.3",
@@ -21,5 +23,9 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "homepage": "http://ifakid.github.io/test-pages"
 }
